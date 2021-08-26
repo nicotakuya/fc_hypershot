@@ -6,6 +6,6 @@
 
 ## how to build
 
-setup CC65(6502 assembler).
+setup CC65(C compiler for 6502).
 
 run 'build.bat'.
