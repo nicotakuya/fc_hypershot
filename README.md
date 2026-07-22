@@ -1,10 +1,12 @@
 # FC Hypershot
 ## overview
 ファミコンの実機で動作する「ハイパーショット」の動作テストプログラムです。
-「CC65」を使って作りました。
+
+推奨するカートリッジはMapper 0。PRG-ROM 32KB(FLASH)、CHR-RAM 8KB(SRAM)。
+https://github.com/nicotakuya/diyfccartridge
 
 ## Files
-・「build.bat」：ROMイメージをビルドするバッチファイルです。
+・「build.bat」：ROMイメージをビルドするバッチファイルです。開発環境は「CC65」です。
 
 ・「rom.nes」：ROMイメージです。
 
