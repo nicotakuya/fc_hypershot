@@ -115,7 +115,7 @@ void title(void)
 }
 
 //---- メイン関数
-char NesMain()
+void NesMain()
 {
     char i;
     char x,y;
@@ -130,7 +130,7 @@ char NesMain()
 
     while (1){
         hypershot();
-        for(i=0; i<16; i++){
+        for(i=0; i<2; i++){
             x = sp_getx(i);
             y = sp_gety(i);
             if(y==OUTSIDE)continue; // 画面外のスプライトをスキップ
@@ -140,7 +140,6 @@ char NesMain()
         sp_dmastart();
         bg_scroll(0,0);
     }
-    return 0;
 }
 
 
